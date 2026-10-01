@@ -1,0 +1,9 @@
+name: проверка
+
+on: push
+
+jobs:
+  job-1:
+    runs-on: ubuntu-latest
+    steps: 
+      - run: echo "Hello CI"
